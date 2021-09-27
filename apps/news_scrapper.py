@@ -4,6 +4,7 @@ import yaml
 import os
 import sys
 
+
 class NewsScrapper:
     def __init__(self):
         self.websites = None

@@ -3,23 +3,21 @@ import datetime
 import time
 import pandas as pd
 from sqlalchemy.orm import Session
-from database.models import ArbitrageAlgorithm, ArbitrageParameters, User
-from database.db66 import ChemicalDB
 
 
 class ArbitrageBot:
-    def __init__(self):
+    def __init__(self, backend):
+        self.backend = backend
         self.exchanges = {}
         self.currency = None
         self.tickers = []
-        self.db = ChemicalDB()
 
 
     def new_algorithm(self, **kwargs):
-        self.db.new_arbitrage_algorithm(**kwargs)
+        self.backend.db.new_arbitrage_algorithm(**kwargs)
 
     def config_algorithm(self, **kwargs):
-        self.db.config_arbitrage_algorithm(**kwargs)
+        self.backend.db.config_arbitrage_algorithm(**kwargs)
 
     def add_currency(self, currency):
         self.currency = currency

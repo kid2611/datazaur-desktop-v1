@@ -1,9 +1,6 @@
 
 from PyQt5 import QtWidgets, QtCore
 from apps.datazaur import Datazaur
-from apps.arbitrage import ArbitrageBot
-from apps.datazaur import Datazaur
-from apps.datazaur import Datazaur
 from ui.newfront88 import Ui_MainWindow as Ui_View
 from ui.newtrade88 import Ui_Form as Ui_Trade
 from ui.newmonitor88 import Ui_Form as Ui_Monitor
@@ -13,10 +10,6 @@ from ui.newnews88 import Ui_Form as Ui_News
 from ui.newtrends88 import Ui_Form as Ui_Trends
 from ui.newcalendar88 import Ui_Form as Ui_Calendar
 from ui.arbitrage_widget import Ui_Form as Ui_Arbitrage
-import time
-import investpy
-from models.dataframemodel import DataFrameModel
-import pandas as pd
 
 
 class Controller:

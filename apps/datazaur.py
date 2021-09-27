@@ -9,7 +9,6 @@ import yaml
 import base64
 import os
 import hashlib
-#from models.pandasmodel import PandasModel
 from apps.database import Database
 from datastream import DataStream
 from source.statarb_algo import StatArbAlgorithm

@@ -158,6 +158,20 @@ class ArbitrageAlgorithm(Base):
     leverage = Column(Integer, default=1)
 
 
+class Condition(Base):
+    __tablename__ = 'condition'
+    id = Column(Integer, primary_key=True)
+    ticker_id = Column(Integer, ForeignKey('cryptocurrency.id'))
+    exchange_id = Column(Integer, ForeignKey('exchange.id'))
+    operand = Column(String)
+    value = Column(Float)
+
+
+class Alert(Base):
+    __tablename__ = 'alert'
+    id = Column(Integer, primary_key=True)
+    user_id = Column(Integer, ForeignKey('user.id'))
+    condition_id = Column(Integer, ForeignKey('condition.id'))
 
 
 
