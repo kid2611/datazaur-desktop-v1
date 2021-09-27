@@ -1,0 +1,23 @@
+
+SOURCES : [investpy, quandl, yfinance, investpy, ccxt, coinmarketcap, forex_python]
+
+DEFAULT_WIDGETS : [markets, trade, charts, watchlist, news, algorithms, editor]
+
+
+
+
+
+TESTS_CONFIG : {
+                johansen_det_order: 0, johansen_n_lags: 144, adf_reg: c, adf_autolag: AIC,
+                adf_maxlag: 0, kpss_reg: c, kpss_autolag: auto, kpss_maxlag: 0
+                }
+
+TA_CONFIG : {
+             macd: {short: 12, long: 26, signal: 9},
+             rsi: {length: 14},
+             stoch: {length: 14},
+             bollinger: {length: 20, stdev: 1}
+             }
+
+STORAGE_POLICY : 0
+

@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>248</width>
+    <height>218</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox_29">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>5</y>
+     <width>246</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>FixedsysTTF</family>
+     <pointsize>10</pointsize>
+     <weight>7</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+     <underline>false</underline>
+     <strikeout>false</strikeout>
+     <kerning>true</kerning>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 63 10pt &quot;FixedsysTTF&quot;;</string>
+   </property>
+   <property name="title">
+    <string>SELECT TIMEFRAME </string>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <widget class="QRadioButton" name="radioButton">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>25</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>FixedsysTTF</family>
+      <pointsize>10</pointsize>
+      <weight>7</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>LAST</string>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_2">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>55</y>
+      <width>61</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>FixedsysTTF</family>
+      <pointsize>10</pointsize>
+      <weight>7</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>SINCE</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_37">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>105</x>
+      <y>25</y>
+      <width>136</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>FixedsysTTF</family>
+      <pointsize>11</pointsize>
+      <weight>7</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 63 11pt &quot;FixedsysTTF&quot;;</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>12h</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>24h</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2d</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3d</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1w</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2w</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3w</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1M</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2M</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3M</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>6M</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1Y</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2Y</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3Y</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>5Y</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>10Y</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ALL DATA</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QDateTimeEdit" name="dateTimeEdit_5">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>105</x>
+      <y>55</y>
+      <width>136</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>FixedsysTTF</family>
+      <pointsize>10</pointsize>
+      <weight>7</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 63 10pt &quot;FixedsysTTF&quot;;</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>85</y>
+      <width>236</width>
+      <height>86</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>FixedsysTTF</family>
+      <pointsize>10</pointsize>
+      <weight>7</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="title">
+     <string>RANGE</string>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <widget class="QDateTimeEdit" name="dateTimeEdit_4">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>85</x>
+       <y>55</y>
+       <width>141</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>FixedsysTTF</family>
+       <pointsize>9</pointsize>
+       <weight>7</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+       <kerning>true</kerning>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 63 9pt &quot;FixedsysTTF&quot;;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_49">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>5</x>
+       <y>25</y>
+       <width>76</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>FixedsysTTF</family>
+       <pointsize>10</pointsize>
+       <weight>7</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+       <kerning>true</kerning>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 63 10pt &quot;FixedsysTTF&quot;;</string>
+     </property>
+     <property name="text">
+      <string>START DATE </string>
+     </property>
+    </widget>
+    <widget class="QDateTimeEdit" name="dateTimeEdit_3">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>85</x>
+       <y>25</y>
+       <width>141</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>FixedsysTTF</family>
+       <pointsize>9</pointsize>
+       <weight>7</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+       <kerning>true</kerning>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 63 9pt &quot;FixedsysTTF&quot;;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_50">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>5</x>
+       <y>55</y>
+       <width>76</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>FixedsysTTF</family>
+       <pointsize>10</pointsize>
+       <weight>7</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+       <kerning>true</kerning>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 63 10pt &quot;FixedsysTTF&quot;;</string>
+     </property>
+     <property name="text">
+      <string>END DATE </string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>180</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>FixedsysTTF</family>
+      <pointsize>10</pointsize>
+      <weight>7</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="text">
+     <string>SUBMIT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>180</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>FixedsysTTF</family>
+      <pointsize>10</pointsize>
+      <weight>7</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="text">
+     <string>CLEAR</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

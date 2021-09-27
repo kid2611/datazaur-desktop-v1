@@ -1,0 +1,1279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1225</width>
+    <height>767</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1211</width>
+      <height>721</height>
+     </rect>
+    </property>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>5</x>
+       <y>0</y>
+       <width>1206</width>
+       <height>721</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QGroupBox" name="groupBox">
+        <property name="minimumSize">
+         <size>
+          <width>220</width>
+          <height>600</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>250</width>
+          <height>710</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>FixedsysTTF</family>
+          <pointsize>15</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="title">
+         <string> DATAZAUR</string>
+        </property>
+        <widget class="QLineEdit" name="lineEdit">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>33</y>
+           <width>201</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QGroupBox" name="groupBox_3">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>355</y>
+           <width>221</width>
+           <height>161</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Ubuntu</family>
+           <pointsize>11</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="title">
+          <string>   actions  </string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_4">
+          <property name="topMargin">
+           <number>3</number>
+          </property>
+          <property name="bottomMargin">
+           <number>3</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QPushButton" name="pushButton_2">
+            <property name="text">
+             <string>watch</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QPushButton" name="pushButton_3">
+            <property name="text">
+             <string>chart</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QPushButton" name="pushButton_6">
+            <property name="text">
+             <string>quote</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QPushButton" name="pushButton_4">
+            <property name="text">
+             <string>trade</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QPushButton" name="pushButton_8">
+            <property name="text">
+             <string>alert</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QPushButton" name="pushButton_7">
+            <property name="text">
+             <string>variables</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0" colspan="2">
+           <widget class="QPushButton" name="pushButton_5">
+            <property name="text">
+             <string>calculate return</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QGroupBox" name="groupBox_5">
+         <property name="geometry">
+          <rect>
+           <x>5</x>
+           <y>515</y>
+           <width>211</width>
+           <height>196</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Ubuntu</family>
+           <pointsize>11</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="title">
+          <string>  timeframe</string>
+         </property>
+         <widget class="QWidget" name="">
+          <property name="geometry">
+           <rect>
+            <x>12</x>
+            <y>121</y>
+            <width>191</width>
+            <height>72</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Ubuntu</family>
+            <pointsize>11</pointsize>
+            <weight>50</weight>
+            <bold>false</bold>
+           </font>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_2">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_5">
+             <property name="text">
+              <string>start</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QDateTimeEdit" name="dateTimeEdit_2">
+             <property name="minimumSize">
+              <size>
+               <width>135</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <family>Ubuntu</family>
+               <pointsize>11</pointsize>
+               <weight>50</weight>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="dateTime">
+              <datetime>
+               <hour>0</hour>
+               <minute>0</minute>
+               <second>0</second>
+               <year>2021</year>
+               <month>1</month>
+               <day>1</day>
+              </datetime>
+             </property>
+             <property name="calendarPopup">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_15">
+             <property name="text">
+              <string>end</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QDateTimeEdit" name="dateTimeEdit">
+             <property name="minimumSize">
+              <size>
+               <width>135</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="date">
+              <date>
+               <year>2021</year>
+               <month>8</month>
+               <day>10</day>
+              </date>
+             </property>
+             <property name="calendarPopup">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="">
+          <property name="geometry">
+           <rect>
+            <x>11</x>
+            <y>91</y>
+            <width>191</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <item>
+            <widget class="QRadioButton" name="radioButton_3">
+             <property name="font">
+              <font>
+               <family>Ubuntu</family>
+               <pointsize>11</pointsize>
+               <weight>50</weight>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>range</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">buttonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+           <item>
+            <widget class="QRadioButton" name="radioButton_2">
+             <property name="font">
+              <font>
+               <family>Ubuntu</family>
+               <pointsize>11</pointsize>
+               <weight>50</weight>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>since</string>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">buttonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="">
+          <property name="geometry">
+           <rect>
+            <x>11</x>
+            <y>28</y>
+            <width>191</width>
+            <height>70</height>
+           </rect>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_3">
+           <item row="0" column="0">
+            <widget class="QRadioButton" name="radioButton">
+             <property name="font">
+              <font>
+               <family>Ubuntu</family>
+               <pointsize>11</pointsize>
+               <weight>50</weight>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>last</string>
+             </property>
+             <property name="checked">
+              <bool>true</bool>
+             </property>
+             <attribute name="buttonGroup">
+              <string notr="true">buttonGroup</string>
+             </attribute>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QComboBox" name="comboBox_13">
+             <property name="font">
+              <font>
+               <family>Ubuntu</family>
+               <pointsize>11</pointsize>
+               <weight>50</weight>
+               <bold>false</bold>
+              </font>
+             </property>
+             <item>
+              <property name="text">
+               <string>1M</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>12h</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>1d</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>2d</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>3d</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>5d</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>1w</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>2w</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>2M</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>3M</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>6M</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>1Y</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>2Y</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>3Y</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>5Y</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>10Y</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>all data</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_7">
+             <property name="font">
+              <font>
+               <family>Ubuntu</family>
+               <pointsize>11</pointsize>
+               <weight>50</weight>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>interval</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QComboBox" name="comboBox_17">
+             <property name="font">
+              <font>
+               <family>Ubuntu</family>
+               <pointsize>11</pointsize>
+               <weight>50</weight>
+               <bold>false</bold>
+              </font>
+             </property>
+             <item>
+              <property name="text">
+               <string>30m</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>1m</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>3m</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>5m</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>15m</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>1h</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>2h</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>3h</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>4h</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>6h</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>12h</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>1d</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>2d</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>4d</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>1w</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+        <widget class="QGroupBox" name="groupBox_2">
+         <property name="geometry">
+          <rect>
+           <x>5</x>
+           <y>215</y>
+           <width>211</width>
+           <height>141</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Ubuntu</family>
+           <pointsize>11</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="title">
+          <string>  search results </string>
+         </property>
+         <widget class="QScrollArea" name="scrollArea">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>21</y>
+            <width>211</width>
+            <height>116</height>
+           </rect>
+          </property>
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <widget class="QWidget" name="scrollAreaWidgetContents">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>209</width>
+             <height>114</height>
+            </rect>
+           </property>
+           <widget class="QListWidget" name="listWidget">
+            <property name="geometry">
+             <rect>
+              <x>5</x>
+              <y>5</y>
+              <width>201</width>
+              <height>106</height>
+             </rect>
+            </property>
+           </widget>
+          </widget>
+         </widget>
+        </widget>
+        <widget class="QGroupBox" name="groupBox_4">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>75</y>
+           <width>206</width>
+           <height>141</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Ubuntu</family>
+           <pointsize>11</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="title">
+          <string>  filters </string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout">
+          <property name="leftMargin">
+           <number>3</number>
+          </property>
+          <property name="topMargin">
+           <number>3</number>
+          </property>
+          <property name="rightMargin">
+           <number>3</number>
+          </property>
+          <property name="bottomMargin">
+           <number>3</number>
+          </property>
+          <property name="spacing">
+           <number>3</number>
+          </property>
+          <item row="2" column="1">
+           <widget class="QComboBox" name="comboBox_15">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>25</height>
+             </size>
+            </property>
+            <item>
+             <property name="text">
+              <string>CCXT</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Yahoo</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Investing</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Quandl</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>pandas-datareader</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QComboBox" name="comboBox_16">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>25</height>
+             </size>
+            </property>
+            <item>
+             <property name="text">
+              <string>CCXT</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Yahoo</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Investing</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Quandl</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>pandas-datareader</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QCheckBox" name="checkBox_3">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>country</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QCheckBox" name="checkBox">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>category</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QComboBox" name="comboBox_14">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>25</height>
+             </size>
+            </property>
+            <item>
+             <property name="text">
+              <string>crypto</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>stocks</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>indexes</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>bonds</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>ETFs</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>funds</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>commodities</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QCheckBox" name="checkBox_2">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>source</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QPushButton" name="pushButton">
+         <property name="geometry">
+          <rect>
+           <x>115</x>
+           <y>64</y>
+           <width>96</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>FixedsysTTF</family>
+           <pointsize>11</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>SEARCH</string>
+         </property>
+        </widget>
+       </widget>
+      </item>
+      <item>
+       <widget class="QTabWidget" name="tabWidget">
+        <property name="minimumSize">
+         <size>
+          <width>700</width>
+          <height>600</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>978</width>
+          <height>719</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1225</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionOpen"/>
+    <addaction name="actionSave"/>
+    <addaction name="separator"/>
+    <addaction name="actionClose"/>
+   </widget>
+   <widget class="QMenu" name="menuView">
+    <property name="title">
+     <string>Widgets</string>
+    </property>
+    <addaction name="actionMarkets"/>
+    <addaction name="actionCharts"/>
+    <addaction name="actionTrade"/>
+    <addaction name="separator"/>
+    <addaction name="actionWatchlist"/>
+    <addaction name="actionFX_Monitor"/>
+    <addaction name="actionFundamental_Data"/>
+    <addaction name="actionOptions_Calculator"/>
+    <addaction name="actionPortfolio"/>
+    <addaction name="separator"/>
+    <addaction name="actionMacro_data"/>
+    <addaction name="actionNews_Feed"/>
+    <addaction name="actionEconomic_Calendar"/>
+    <addaction name="separator"/>
+    <addaction name="actionAlgorithm_Wizard"/>
+    <addaction name="actionScript_Editor"/>
+    <addaction name="actionDatabase"/>
+    <addaction name="separator"/>
+    <addaction name="actionCrypto_Wallet"/>
+    <addaction name="actionBlockchain_Explorer_2"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menuSettings">
+    <property name="title">
+     <string>Settings</string>
+    </property>
+    <widget class="QMenu" name="menuThemes">
+     <property name="title">
+      <string>Themes</string>
+     </property>
+     <addaction name="actionNavy"/>
+     <addaction name="actionMatrix"/>
+     <addaction name="separator"/>
+     <addaction name="actionCustom"/>
+    </widget>
+    <addaction name="actionSettings"/>
+    <addaction name="separator"/>
+    <addaction name="menuThemes"/>
+    <addaction name="separator"/>
+    <addaction name="actionAccount"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionHelp"/>
+    <addaction name="separator"/>
+    <addaction name="actionReport_a_bug"/>
+    <addaction name="actionContribute"/>
+    <addaction name="actionDonate"/>
+    <addaction name="separator"/>
+    <addaction name="actionAbout"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menuTools">
+    <property name="title">
+     <string>Statistics</string>
+    </property>
+    <widget class="QMenu" name="menuModels">
+     <property name="title">
+      <string>Models</string>
+     </property>
+     <addaction name="actionOLS"/>
+     <addaction name="actionARMA"/>
+    </widget>
+    <widget class="QMenu" name="menuCorrelograms">
+     <property name="title">
+      <string>Correlograms</string>
+     </property>
+     <addaction name="actionACF"/>
+     <addaction name="actionPACF"/>
+    </widget>
+    <widget class="QMenu" name="menuCointegration">
+     <property name="title">
+      <string>Cointegration</string>
+     </property>
+     <addaction name="actionEngle_Granger"/>
+     <addaction name="actionJohansen_2"/>
+    </widget>
+    <widget class="QMenu" name="menuStationarity">
+     <property name="title">
+      <string>Stationarity</string>
+     </property>
+     <addaction name="actionADF_2"/>
+     <addaction name="actionKPSS"/>
+    </widget>
+    <addaction name="actionDescriptive_statistics"/>
+    <addaction name="separator"/>
+    <addaction name="menuCorrelograms"/>
+    <addaction name="menuStationarity"/>
+    <addaction name="separator"/>
+    <addaction name="menuModels"/>
+    <addaction name="menuCointegration"/>
+    <addaction name="separator"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuView"/>
+   <addaction name="menuTools"/>
+   <addaction name="menuSettings"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionMarkets">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Markets</string>
+   </property>
+  </action>
+  <action name="actionTrade">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Trade</string>
+   </property>
+  </action>
+  <action name="actionCharts">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Charts</string>
+   </property>
+  </action>
+  <action name="actionWatchlist">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Watchlist</string>
+   </property>
+  </action>
+  <action name="actionAlgorithm_Wizard">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Algorithm Wizard</string>
+   </property>
+  </action>
+  <action name="actionPortfolio">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Portfolio Manager</string>
+   </property>
+  </action>
+  <action name="actionScript_Editor">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Script Editor</string>
+   </property>
+  </action>
+  <action name="actionDatabase">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Database</string>
+   </property>
+  </action>
+  <action name="actionNews_Feed">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>News Feed</string>
+   </property>
+  </action>
+  <action name="actionSettings">
+   <property name="text">
+    <string>Settings</string>
+   </property>
+  </action>
+  <action name="actionNavy">
+   <property name="text">
+    <string>Navy</string>
+   </property>
+  </action>
+  <action name="actionMatrix">
+   <property name="text">
+    <string>Matrix</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="actionDonate">
+   <property name="text">
+    <string>Donate</string>
+   </property>
+  </action>
+  <action name="actionContribute">
+   <property name="text">
+    <string>Contribute</string>
+   </property>
+  </action>
+  <action name="actionHelp">
+   <property name="text">
+    <string>Help</string>
+   </property>
+  </action>
+  <action name="actionADF">
+   <property name="text">
+    <string>ADF test</string>
+   </property>
+  </action>
+  <action name="actionKPSS_test">
+   <property name="text">
+    <string>KPSS test</string>
+   </property>
+  </action>
+  <action name="actionEngle_Granger_test">
+   <property name="text">
+    <string>Engle-Granger</string>
+   </property>
+  </action>
+  <action name="actionJohansen">
+   <property name="text">
+    <string>Johansen</string>
+   </property>
+  </action>
+  <action name="actionBacktest">
+   <property name="text">
+    <string>Backtest</string>
+   </property>
+  </action>
+  <action name="actionCustom">
+   <property name="text">
+    <string>Custom</string>
+   </property>
+  </action>
+  <action name="actionFX_Rates">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>FX Rates</string>
+   </property>
+  </action>
+  <action name="actionOLS_Model">
+   <property name="text">
+    <string>OLS Model</string>
+   </property>
+  </action>
+  <action name="actionReport_a_bug">
+   <property name="text">
+    <string>Report a bug</string>
+   </property>
+  </action>
+  <action name="actionEthereum_Explorer">
+   <property name="text">
+    <string>Blockchain Explorer</string>
+   </property>
+  </action>
+  <action name="actionBitcoin_Explorer">
+   <property name="text">
+    <string>Bitcoin Explorer</string>
+   </property>
+  </action>
+  <action name="actionCrypto_wallet">
+   <property name="text">
+    <string>Crypto Wallet</string>
+   </property>
+  </action>
+  <action name="actionMacro_data">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Macro Data</string>
+   </property>
+  </action>
+  <action name="actionOptions_Calculator">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Options Calculator</string>
+   </property>
+  </action>
+  <action name="actionDescriptive_statistics">
+   <property name="text">
+    <string>Descriptive statistics</string>
+   </property>
+  </action>
+  <action name="actionOLS">
+   <property name="text">
+    <string>OLS</string>
+   </property>
+  </action>
+  <action name="actionARMA">
+   <property name="text">
+    <string>ARMA</string>
+   </property>
+  </action>
+  <action name="actionACF">
+   <property name="text">
+    <string>ACF</string>
+   </property>
+  </action>
+  <action name="actionPACF">
+   <property name="text">
+    <string>PACF</string>
+   </property>
+  </action>
+  <action name="actionEngle_Granger">
+   <property name="text">
+    <string>Engle-Granger</string>
+   </property>
+  </action>
+  <action name="actionJohansen_2">
+   <property name="text">
+    <string>Johansen</string>
+   </property>
+  </action>
+  <action name="actionBlockchain_Explorer">
+   <property name="text">
+    <string>Blockchain Explorer</string>
+   </property>
+  </action>
+  <action name="actionWallet">
+   <property name="text">
+    <string>Wallet</string>
+   </property>
+  </action>
+  <action name="actionADF_2">
+   <property name="text">
+    <string>ADF</string>
+   </property>
+  </action>
+  <action name="actionKPSS">
+   <property name="text">
+    <string>KPSS</string>
+   </property>
+  </action>
+  <action name="actionAccount">
+   <property name="text">
+    <string>Account</string>
+   </property>
+  </action>
+  <action name="actionEconomic_Calendar">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Economic Calendar</string>
+   </property>
+  </action>
+  <action name="actionFX_Monitor">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>FX Monitor</string>
+   </property>
+  </action>
+  <action name="actionCrypto_Wallet">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Crypto Wallet</string>
+   </property>
+  </action>
+  <action name="actionBlockchain_Explorer_2">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Blockchain Explorer</string>
+   </property>
+  </action>
+  <action name="actionFundamental_Data">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Fundamental Data</string>
+   </property>
+  </action>
+  <action name="actionClose">
+   <property name="text">
+    <string>Close</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="text">
+    <string>Save..</string>
+   </property>
+  </action>
+  <action name="actionOpen">
+   <property name="text">
+    <string>Open..</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="buttonGroup"/>
+ </buttongroups>
+</ui>

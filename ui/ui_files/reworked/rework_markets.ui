@@ -1,0 +1,4752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>957</width>
+    <height>682</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>5</y>
+     <width>951</width>
+     <height>671</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>600</width>
+     <height>400</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>951</width>
+     <height>680</height>
+    </size>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>index</string>
+    </attribute>
+    <widget class="QFrame" name="frame_7">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>946</width>
+       <height>636</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="geometry">
+       <rect>
+        <x>5</x>
+        <y>5</y>
+        <width>227</width>
+        <height>326</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>  filters</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_10">
+         <item>
+          <widget class="QCheckBox" name="checkBox_26">
+           <property name="text">
+            <string>country</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_15">
+           <property name="maximumSize">
+            <size>
+             <width>95</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <item>
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>stocks</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>bonds</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>indexes</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>commodities</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>funds</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>etfs</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_9">
+         <item>
+          <widget class="QCheckBox" name="checkBox_24">
+           <property name="text">
+            <string>region</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_23">
+           <property name="maximumSize">
+            <size>
+             <width>95</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <item>
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>EMEA</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>AMER</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>APAC</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_8">
+         <item>
+          <widget class="QCheckBox" name="checkBox_28">
+           <property name="text">
+            <string>currency</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_18">
+           <property name="maximumSize">
+            <size>
+             <width>95</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <item>
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>energy</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>technology</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>industrials</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>retail</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>healthcare</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>military</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>finance</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>mining</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>services</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_7">
+         <item>
+          <widget class="QCheckBox" name="checkBox_25">
+           <property name="text">
+            <string>sector</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_19">
+           <property name="maximumSize">
+            <size>
+             <width>95</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <item>
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Investing</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Yahoo</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Quandl</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>pandas-datareader</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_6">
+         <item>
+          <widget class="QCheckBox" name="checkBox_29">
+           <property name="text">
+            <string>category</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_20">
+           <property name="maximumSize">
+            <size>
+             <width>95</width>
+             <height>16777215</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_5">
+         <item>
+          <widget class="QCheckBox" name="checkBox_27">
+           <property name="text">
+            <string>source</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_21">
+           <property name="maximumSize">
+            <size>
+             <width>95</width>
+             <height>16777215</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <item>
+          <widget class="QCheckBox" name="checkBox_30">
+           <property name="text">
+            <string>income type</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_22">
+           <property name="minimumSize">
+            <size>
+             <width>92</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>92</width>
+             <height>16777215</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <property name="spacing">
+          <number>2</number>
+         </property>
+         <property name="sizeConstraint">
+          <enum>QLayout::SetMaximumSize</enum>
+         </property>
+         <item>
+          <widget class="QCheckBox" name="checkBox_15">
+           <property name="maximumSize">
+            <size>
+             <width>71</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>rating</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_17">
+           <property name="maximumSize">
+            <size>
+             <width>35</width>
+             <height>25</height>
+            </size>
+           </property>
+           <item>
+            <property name="text">
+             <string>&gt;</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>&gt;=</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>&lt;</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>&lt;=</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>=</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>+/- 1 notch</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_31">
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>25</height>
+            </size>
+           </property>
+           <item>
+            <property name="text">
+             <string>AAA</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>AA+</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>AA</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>AA-</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>A+</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>A</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>A-</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>BBB+</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>BBB</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>BBB-</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>BB+</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>BB</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>BB-</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>B+</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>B</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>B-</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>CCC+</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>CCC</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>CCC-</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>CC</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>C</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>D</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>IG</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>HY</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QTabWidget" name="tabWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>10</y>
+        <width>716</width>
+        <height>626</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_3">
+       <attribute name="title">
+        <string>crypto</string>
+       </attribute>
+       <widget class="QTableView" name="tableView_14">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>716</width>
+          <height>596</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_10">
+       <attribute name="title">
+        <string>stocks</string>
+       </attribute>
+       <widget class="QTableView" name="tableView">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>716</width>
+          <height>596</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_11">
+       <attribute name="title">
+        <string>bonds</string>
+       </attribute>
+       <widget class="QTableView" name="tableView_4">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>716</width>
+          <height>596</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_12">
+       <attribute name="title">
+        <string>ETFs</string>
+       </attribute>
+       <widget class="QTableView" name="tableView_5">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>716</width>
+          <height>596</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_13">
+       <attribute name="title">
+        <string>funds</string>
+       </attribute>
+       <widget class="QTableView" name="tableView_6">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>716</width>
+          <height>596</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_22">
+       <attribute name="title">
+        <string>indexes</string>
+       </attribute>
+       <widget class="QTableView" name="tableView_7">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>716</width>
+          <height>596</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_23">
+       <attribute name="title">
+        <string>commodities</string>
+       </attribute>
+       <widget class="QTableView" name="tableView_16">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>716</width>
+          <height>596</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>125</x>
+        <y>595</y>
+        <width>96</width>
+        <height>36</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>search</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="geometry">
+       <rect>
+        <x>15</x>
+        <y>595</y>
+        <width>96</width>
+        <height>36</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>clear</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_14">
+      <property name="geometry">
+       <rect>
+        <x>795</x>
+        <y>5</y>
+        <width>151</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>crypto</string>
+    </attribute>
+    <widget class="QFrame" name="frame_8">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>946</width>
+       <height>636</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="geometry">
+       <rect>
+        <x>5</x>
+        <y>5</y>
+        <width>221</width>
+        <height>276</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>  filters</string>
+      </property>
+      <widget class="QComboBox" name="comboBox_24">
+       <property name="geometry">
+        <rect>
+         <x>87</x>
+         <y>115</y>
+         <width>128</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Coinmarketcap</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Investing</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Quandl</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Yahoo</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Forex-python</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="comboBox_16">
+       <property name="geometry">
+        <rect>
+         <x>109</x>
+         <y>40</y>
+         <width>106</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>stocks</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>bonds</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>indexes</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>commodities</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>funds</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>etfs</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="geometry">
+        <rect>
+         <x>115</x>
+         <y>240</y>
+         <width>101</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>search</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_4">
+       <property name="geometry">
+        <rect>
+         <x>5</x>
+         <y>115</y>
+         <width>92</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>source</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_5">
+       <property name="geometry">
+        <rect>
+         <x>5</x>
+         <y>40</y>
+         <width>92</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>type</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_28">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>150</y>
+         <width>106</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>stocks</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>bonds</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>indexes</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>commodities</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>funds</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>etfs</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_7">
+       <property name="geometry">
+        <rect>
+         <x>6</x>
+         <y>150</y>
+         <width>96</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>category</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>79</y>
+         <width>216</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QCheckBox" name="checkBox_6">
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>100</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>market cap</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comboBox_64">
+          <property name="minimumSize">
+           <size>
+            <width>35</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>35</width>
+            <height>25</height>
+           </size>
+          </property>
+          <item>
+           <property name="text">
+            <string>&gt;</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>&lt;</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comboBox_29">
+          <property name="minimumSize">
+           <size>
+            <width>40</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="editable">
+           <bool>true</bool>
+          </property>
+          <item>
+           <property name="text">
+            <string>2T</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>1T</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>750B</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>500B</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>250B</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>100B</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+     <widget class="QTabWidget" name="tabWidget_4">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>10</y>
+        <width>716</width>
+        <height>631</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_20">
+       <attribute name="title">
+        <string>overview</string>
+       </attribute>
+       <widget class="QTableView" name="tableView_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>716</width>
+          <height>601</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_21">
+       <attribute name="title">
+        <string>info</string>
+       </attribute>
+       <widget class="QTableView" name="tableView_17">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>716</width>
+          <height>601</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_7">
+       <attribute name="title">
+        <string>global metrics</string>
+       </attribute>
+       <widget class="QTableView" name="tableView_27">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>716</width>
+          <height>601</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_8">
+       <attribute name="title">
+        <string>exchanges</string>
+       </attribute>
+       <widget class="QTableView" name="tableView_28">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>716</width>
+          <height>601</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_15">
+      <property name="geometry">
+       <rect>
+        <x>785</x>
+        <y>5</y>
+        <width>161</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="geometry">
+       <rect>
+        <x>5</x>
+        <y>355</y>
+        <width>221</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>  converter</string>
+      </property>
+      <widget class="QLineEdit" name="lineEdit_20">
+       <property name="geometry">
+        <rect>
+         <x>5</x>
+         <y>50</y>
+         <width>91</width>
+         <height>25</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_21">
+       <property name="geometry">
+        <rect>
+         <x>55</x>
+         <y>85</y>
+         <width>101</width>
+         <height>25</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_36">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>50</y>
+         <width>56</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>stocks</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>bonds</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>indexes</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>commodities</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>funds</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>etfs</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>5</x>
+         <y>85</y>
+         <width>56</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>equals:</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_38">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>50</y>
+         <width>56</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>stocks</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>bonds</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>indexes</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>commodities</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>funds</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>etfs</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>5</x>
+         <y>30</y>
+         <width>56</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>amount:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>30</y>
+         <width>56</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>from:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>30</y>
+         <width>56</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>to:</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_39">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>85</y>
+         <width>56</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>stocks</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>bonds</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>indexes</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>commodities</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>funds</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>etfs</string>
+        </property>
+       </item>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_4">
+    <attribute name="title">
+     <string>stocks</string>
+    </attribute>
+    <widget class="QFrame" name="frame_9">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>946</width>
+       <height>636</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QTabWidget" name="tabWidget_9">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>10</y>
+        <width>716</width>
+        <height>631</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_29">
+       <attribute name="title">
+        <string>overview</string>
+       </attribute>
+       <widget class="QTableView" name="tableView_19">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>716</width>
+          <height>601</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_30">
+       <attribute name="title">
+        <string>info</string>
+       </attribute>
+       <widget class="QTableView" name="tableView_20">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>716</width>
+          <height>601</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_18">
+      <property name="geometry">
+       <rect>
+        <x>785</x>
+        <y>5</y>
+        <width>161</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_6">
+      <property name="geometry">
+       <rect>
+        <x>5</x>
+        <y>290</y>
+        <width>221</width>
+        <height>341</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>   countries</string>
+      </property>
+      <widget class="QLineEdit" name="lineEdit_22">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>155</y>
+         <width>201</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="clearButtonEnabled">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QListWidget" name="listWidget_4">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>185</y>
+         <width>201</width>
+         <height>151</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_22">
+       <property name="geometry">
+        <rect>
+         <x>15</x>
+         <y>30</y>
+         <width>66</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>region</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_23">
+       <property name="geometry">
+        <rect>
+         <x>15</x>
+         <y>65</y>
+         <width>111</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>income level</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_7">
+      <property name="geometry">
+       <rect>
+        <x>5</x>
+        <y>5</y>
+        <width>221</width>
+        <height>276</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>  filters</string>
+      </property>
+      <widget class="QComboBox" name="comboBox_12">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>30</y>
+         <width>66</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>AAA</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>AA+</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>AA</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>AA-</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>A+</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>A</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>A-</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>BBB+</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>BBB</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>BBB-</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>BB+</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>BB</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>BB-</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>B+</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>B</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>B-</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>CCC+</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>CCC</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>CCC-</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>CC</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>C</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>D</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>IG</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>HY</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="comboBox_13">
+       <property name="geometry">
+        <rect>
+         <x>115</x>
+         <y>65</y>
+         <width>101</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>energy</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>technology</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>industrials</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>retail</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>healthcare</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>military</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>finance</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>mining</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>services</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="comboBox_14">
+       <property name="geometry">
+        <rect>
+         <x>115</x>
+         <y>100</y>
+         <width>101</width>
+         <height>25</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_25">
+       <property name="geometry">
+        <rect>
+         <x>95</x>
+         <y>30</y>
+         <width>46</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>&gt;</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>&gt;=</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>&lt;</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>&lt;=</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>=</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>+/- 1 notch</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="comboBox_37">
+       <property name="geometry">
+        <rect>
+         <x>115</x>
+         <y>135</y>
+         <width>101</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Investing</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Yahoo</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Quandl</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_16">
+       <property name="geometry">
+        <rect>
+         <x>5</x>
+         <y>30</y>
+         <width>66</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>rating</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_17">
+       <property name="geometry">
+        <rect>
+         <x>5</x>
+         <y>70</y>
+         <width>66</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>sector</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_18">
+       <property name="geometry">
+        <rect>
+         <x>5</x>
+         <y>105</y>
+         <width>86</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>currency</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_19">
+       <property name="geometry">
+        <rect>
+         <x>5</x>
+         <y>140</y>
+         <width>86</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>source</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_24">
+    <attribute name="title">
+     <string>indexes</string>
+    </attribute>
+    <widget class="QFrame" name="frame_10">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>946</width>
+       <height>636</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QTabWidget" name="tabWidget_8">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>10</y>
+        <width>716</width>
+        <height>631</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_31">
+       <attribute name="title">
+        <string>overview</string>
+       </attribute>
+       <widget class="QTableView" name="tableView_21">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>716</width>
+          <height>601</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_32">
+       <attribute name="title">
+        <string>info</string>
+       </attribute>
+       <widget class="QTableView" name="tableView_22">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>716</width>
+          <height>601</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_17">
+      <property name="geometry">
+       <rect>
+        <x>785</x>
+        <y>5</y>
+        <width>161</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_8">
+      <property name="geometry">
+       <rect>
+        <x>5</x>
+        <y>5</y>
+        <width>227</width>
+        <height>326</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>  filters</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_19">
+         <item>
+          <widget class="QCheckBox" name="checkBox_31">
+           <property name="text">
+            <string>country</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_26">
+           <property name="maximumSize">
+            <size>
+             <width>95</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <item>
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>stocks</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>bonds</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>indexes</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>commodities</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>funds</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>etfs</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_20">
+         <item>
+          <widget class="QCheckBox" name="checkBox_32">
+           <property name="text">
+            <string>region</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_27">
+           <property name="maximumSize">
+            <size>
+             <width>95</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <item>
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>EMEA</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>AMER</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>APAC</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_21">
+         <item>
+          <widget class="QCheckBox" name="checkBox_33">
+           <property name="text">
+            <string>currency</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_32">
+           <property name="maximumSize">
+            <size>
+             <width>95</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <item>
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>energy</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>technology</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>industrials</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>retail</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>healthcare</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>military</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>finance</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>mining</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>services</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_22">
+         <item>
+          <widget class="QCheckBox" name="checkBox_34">
+           <property name="text">
+            <string>sector</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_33">
+           <property name="maximumSize">
+            <size>
+             <width>95</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <item>
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Investing</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Yahoo</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Quandl</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>pandas-datareader</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_23">
+         <item>
+          <widget class="QCheckBox" name="checkBox_35">
+           <property name="text">
+            <string>category</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_34">
+           <property name="maximumSize">
+            <size>
+             <width>95</width>
+             <height>16777215</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_24">
+         <item>
+          <widget class="QCheckBox" name="checkBox_36">
+           <property name="text">
+            <string>source</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_35">
+           <property name="maximumSize">
+            <size>
+             <width>95</width>
+             <height>16777215</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_25">
+         <item>
+          <widget class="QCheckBox" name="checkBox_37">
+           <property name="text">
+            <string>income type</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_40">
+           <property name="minimumSize">
+            <size>
+             <width>92</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>92</width>
+             <height>16777215</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_26">
+         <property name="spacing">
+          <number>2</number>
+         </property>
+         <property name="sizeConstraint">
+          <enum>QLayout::SetMaximumSize</enum>
+         </property>
+         <item>
+          <widget class="QCheckBox" name="checkBox_20">
+           <property name="maximumSize">
+            <size>
+             <width>71</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>rating</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_41">
+           <property name="maximumSize">
+            <size>
+             <width>35</width>
+             <height>25</height>
+            </size>
+           </property>
+           <item>
+            <property name="text">
+             <string>&gt;</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>&gt;=</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>&lt;</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>&lt;=</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>=</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>+/- 1 notch</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_42">
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>25</height>
+            </size>
+           </property>
+           <item>
+            <property name="text">
+             <string>AAA</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>AA+</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>AA</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>AA-</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>A+</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>A</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>A-</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>BBB+</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>BBB</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>BBB-</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>BB+</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>BB</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>BB-</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>B+</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>B</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>B-</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>CCC+</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>CCC</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>CCC-</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>CC</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>C</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>D</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>IG</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>HY</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_26">
+    <attribute name="title">
+     <string>ETFs</string>
+    </attribute>
+    <widget class="QFrame" name="frame_11">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>946</width>
+       <height>636</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QTabWidget" name="tabWidget_10">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>10</y>
+        <width>716</width>
+        <height>631</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_33">
+       <attribute name="title">
+        <string>overview</string>
+       </attribute>
+       <widget class="QTableView" name="tableView_23">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>716</width>
+          <height>601</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_34">
+       <attribute name="title">
+        <string>info</string>
+       </attribute>
+       <widget class="QTableView" name="tableView_24">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>716</width>
+          <height>601</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_19">
+      <property name="geometry">
+       <rect>
+        <x>785</x>
+        <y>5</y>
+        <width>161</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_9">
+      <property name="geometry">
+       <rect>
+        <x>5</x>
+        <y>5</y>
+        <width>227</width>
+        <height>326</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>  filters</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_27">
+         <item>
+          <widget class="QCheckBox" name="checkBox_38">
+           <property name="text">
+            <string>country</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_43">
+           <property name="maximumSize">
+            <size>
+             <width>95</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <item>
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>stocks</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>bonds</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>indexes</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>commodities</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>funds</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>etfs</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_28">
+         <item>
+          <widget class="QCheckBox" name="checkBox_39">
+           <property name="text">
+            <string>region</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_44">
+           <property name="maximumSize">
+            <size>
+             <width>95</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <item>
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>EMEA</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>AMER</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>APAC</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_29">
+         <item>
+          <widget class="QCheckBox" name="checkBox_40">
+           <property name="text">
+            <string>currency</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_45">
+           <property name="maximumSize">
+            <size>
+             <width>95</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <item>
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>energy</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>technology</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>industrials</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>retail</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>healthcare</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>military</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>finance</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>mining</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>services</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_30">
+         <item>
+          <widget class="QCheckBox" name="checkBox_41">
+           <property name="text">
+            <string>sector</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_46">
+           <property name="maximumSize">
+            <size>
+             <width>95</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <item>
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Investing</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Yahoo</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Quandl</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>pandas-datareader</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_31">
+         <item>
+          <widget class="QCheckBox" name="checkBox_42">
+           <property name="text">
+            <string>category</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_47">
+           <property name="maximumSize">
+            <size>
+             <width>95</width>
+             <height>16777215</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_32">
+         <item>
+          <widget class="QCheckBox" name="checkBox_43">
+           <property name="text">
+            <string>source</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_48">
+           <property name="maximumSize">
+            <size>
+             <width>95</width>
+             <height>16777215</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_33">
+         <item>
+          <widget class="QCheckBox" name="checkBox_44">
+           <property name="text">
+            <string>income type</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_49">
+           <property name="minimumSize">
+            <size>
+             <width>92</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>92</width>
+             <height>16777215</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_34">
+         <property name="spacing">
+          <number>2</number>
+         </property>
+         <property name="sizeConstraint">
+          <enum>QLayout::SetMaximumSize</enum>
+         </property>
+         <item>
+          <widget class="QCheckBox" name="checkBox_21">
+           <property name="maximumSize">
+            <size>
+             <width>71</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>rating</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_50">
+           <property name="maximumSize">
+            <size>
+             <width>35</width>
+             <height>25</height>
+            </size>
+           </property>
+           <item>
+            <property name="text">
+             <string>&gt;</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>&gt;=</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>&lt;</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>&lt;=</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>=</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>+/- 1 notch</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_51">
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>25</height>
+            </size>
+           </property>
+           <item>
+            <property name="text">
+             <string>AAA</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>AA+</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>AA</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>AA-</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>A+</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>A</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>A-</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>BBB+</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>BBB</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>BBB-</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>BB+</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>BB</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>BB-</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>B+</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>B</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>B-</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>CCC+</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>CCC</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>CCC-</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>CC</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>C</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>D</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>IG</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>HY</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_27">
+    <attribute name="title">
+     <string>funds</string>
+    </attribute>
+    <widget class="QFrame" name="frame_12">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>946</width>
+       <height>636</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QTabWidget" name="tabWidget_11">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>10</y>
+        <width>716</width>
+        <height>631</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_35">
+       <attribute name="title">
+        <string>overview</string>
+       </attribute>
+       <widget class="QTableView" name="tableView_25">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>716</width>
+          <height>601</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_36">
+       <attribute name="title">
+        <string>info</string>
+       </attribute>
+       <widget class="QTableView" name="tableView_26">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>716</width>
+          <height>601</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_13">
+      <property name="geometry">
+       <rect>
+        <x>785</x>
+        <y>5</y>
+        <width>161</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_10">
+      <property name="geometry">
+       <rect>
+        <x>5</x>
+        <y>5</y>
+        <width>227</width>
+        <height>326</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>  filters</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_5">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_35">
+         <item>
+          <widget class="QCheckBox" name="checkBox_45">
+           <property name="text">
+            <string>country</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_52">
+           <property name="maximumSize">
+            <size>
+             <width>95</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <item>
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>stocks</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>bonds</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>indexes</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>commodities</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>funds</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>etfs</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_36">
+         <item>
+          <widget class="QCheckBox" name="checkBox_46">
+           <property name="text">
+            <string>region</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_53">
+           <property name="maximumSize">
+            <size>
+             <width>95</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <item>
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>EMEA</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>AMER</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>APAC</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_37">
+         <item>
+          <widget class="QCheckBox" name="checkBox_47">
+           <property name="text">
+            <string>currency</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_54">
+           <property name="maximumSize">
+            <size>
+             <width>95</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <item>
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>energy</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>technology</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>industrials</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>retail</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>healthcare</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>military</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>finance</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>mining</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>services</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_38">
+         <item>
+          <widget class="QCheckBox" name="checkBox_48">
+           <property name="text">
+            <string>sector</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_55">
+           <property name="maximumSize">
+            <size>
+             <width>95</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <item>
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Investing</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Yahoo</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Quandl</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>pandas-datareader</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_39">
+         <item>
+          <widget class="QCheckBox" name="checkBox_49">
+           <property name="text">
+            <string>category</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_56">
+           <property name="maximumSize">
+            <size>
+             <width>95</width>
+             <height>16777215</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_40">
+         <item>
+          <widget class="QCheckBox" name="checkBox_50">
+           <property name="text">
+            <string>source</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_57">
+           <property name="maximumSize">
+            <size>
+             <width>95</width>
+             <height>16777215</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_41">
+         <item>
+          <widget class="QCheckBox" name="checkBox_51">
+           <property name="text">
+            <string>income type</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_58">
+           <property name="minimumSize">
+            <size>
+             <width>92</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>92</width>
+             <height>16777215</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_42">
+         <property name="spacing">
+          <number>2</number>
+         </property>
+         <property name="sizeConstraint">
+          <enum>QLayout::SetMaximumSize</enum>
+         </property>
+         <item>
+          <widget class="QCheckBox" name="checkBox_52">
+           <property name="maximumSize">
+            <size>
+             <width>71</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>rating</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_59">
+           <property name="maximumSize">
+            <size>
+             <width>35</width>
+             <height>25</height>
+            </size>
+           </property>
+           <item>
+            <property name="text">
+             <string>&gt;</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>&gt;=</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>&lt;</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>&lt;=</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>=</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>+/- 1 notch</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_60">
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>25</height>
+            </size>
+           </property>
+           <item>
+            <property name="text">
+             <string>AAA</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>AA+</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>AA</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>AA-</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>A+</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>A</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>A-</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>BBB+</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>BBB</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>BBB-</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>BB+</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>BB</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>BB-</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>B+</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>B</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>B-</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>CCC+</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>CCC</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>CCC-</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>CC</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>C</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>D</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>IG</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>HY</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_14">
+    <attribute name="title">
+     <string>certificates</string>
+    </attribute>
+    <widget class="QFrame" name="frame_13">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>946</width>
+       <height>636</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QTabWidget" name="tabWidget_13">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>10</y>
+        <width>716</width>
+        <height>631</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_40">
+       <attribute name="title">
+        <string>overview</string>
+       </attribute>
+       <widget class="QTableView" name="tableView_33">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>716</width>
+          <height>601</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_41">
+       <attribute name="title">
+        <string>info</string>
+       </attribute>
+       <widget class="QTableView" name="tableView_34">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>716</width>
+          <height>601</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_23">
+      <property name="geometry">
+       <rect>
+        <x>785</x>
+        <y>5</y>
+        <width>161</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_11">
+      <property name="geometry">
+       <rect>
+        <x>5</x>
+        <y>5</y>
+        <width>227</width>
+        <height>326</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>  filters</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_6">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_43">
+         <item>
+          <widget class="QCheckBox" name="checkBox_53">
+           <property name="text">
+            <string>country</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_30">
+           <property name="maximumSize">
+            <size>
+             <width>95</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <item>
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>stocks</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>bonds</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>indexes</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>commodities</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>funds</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>etfs</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_44">
+         <item>
+          <widget class="QCheckBox" name="checkBox_54">
+           <property name="text">
+            <string>region</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_61">
+           <property name="maximumSize">
+            <size>
+             <width>95</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <item>
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>EMEA</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>AMER</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>APAC</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_45">
+         <item>
+          <widget class="QCheckBox" name="checkBox_55">
+           <property name="text">
+            <string>currency</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_62">
+           <property name="maximumSize">
+            <size>
+             <width>95</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <item>
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>energy</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>technology</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>industrials</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>retail</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>healthcare</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>military</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>finance</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>mining</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>services</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_46">
+         <item>
+          <widget class="QCheckBox" name="checkBox_56">
+           <property name="text">
+            <string>sector</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_63">
+           <property name="maximumSize">
+            <size>
+             <width>95</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <item>
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Investing</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Yahoo</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Quandl</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>pandas-datareader</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_47">
+         <item>
+          <widget class="QCheckBox" name="checkBox_57">
+           <property name="text">
+            <string>category</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_65">
+           <property name="maximumSize">
+            <size>
+             <width>95</width>
+             <height>16777215</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_48">
+         <item>
+          <widget class="QCheckBox" name="checkBox_58">
+           <property name="text">
+            <string>source</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_66">
+           <property name="maximumSize">
+            <size>
+             <width>95</width>
+             <height>16777215</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_49">
+         <item>
+          <widget class="QCheckBox" name="checkBox_59">
+           <property name="text">
+            <string>income type</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_67">
+           <property name="minimumSize">
+            <size>
+             <width>92</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>92</width>
+             <height>16777215</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_50">
+         <property name="spacing">
+          <number>2</number>
+         </property>
+         <property name="sizeConstraint">
+          <enum>QLayout::SetMaximumSize</enum>
+         </property>
+         <item>
+          <widget class="QCheckBox" name="checkBox_60">
+           <property name="maximumSize">
+            <size>
+             <width>71</width>
+             <height>25</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>rating</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_68">
+           <property name="maximumSize">
+            <size>
+             <width>35</width>
+             <height>25</height>
+            </size>
+           </property>
+           <item>
+            <property name="text">
+             <string>&gt;</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>&gt;=</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>&lt;</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>&lt;=</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>=</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>+/- 1 notch</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_69">
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>25</height>
+            </size>
+           </property>
+           <item>
+            <property name="text">
+             <string>AAA</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>AA+</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>AA</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>AA-</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>A+</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>A</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>A-</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>BBB+</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>BBB</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>BBB-</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>BB+</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>BB</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>BB-</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>B+</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>B</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>B-</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>CCC+</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>CCC</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>CCC-</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>CC</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>C</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>D</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>IG</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>HY</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_6">
+    <attribute name="title">
+     <string>bonds</string>
+    </attribute>
+    <widget class="QFrame" name="frame_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>946</width>
+       <height>636</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QGroupBox" name="groupBox_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>380</y>
+        <width>186</width>
+        <height>251</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>   countries</string>
+      </property>
+      <widget class="QLineEdit" name="lineEdit_10">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>166</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="clearButtonEnabled">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QListWidget" name="listWidget_3">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>166</width>
+         <height>151</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="geometry">
+        <rect>
+         <x>13</x>
+         <y>215</y>
+         <width>161</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>get bonds</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_5">
+      <property name="geometry">
+       <rect>
+        <x>5</x>
+        <y>5</y>
+        <width>231</width>
+        <height>376</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>  filters</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QCheckBox" name="checkBox_3">
+           <property name="text">
+            <string>rating</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_7">
+           <item>
+            <property name="text">
+             <string>&gt;</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>&gt;=</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>&lt;</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>&lt;=</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>=</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>+/- 1 notch</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_4">
+           <item>
+            <property name="text">
+             <string>AAA</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>AA+</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>AA</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>AA-</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>A+</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>A</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>A-</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>BBB+</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>BBB</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>BBB-</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>BB+</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>BB</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>BB-</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>B+</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>B</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>B-</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>CCC+</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>CCC</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>CCC-</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>CC</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>C</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>D</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>IG</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>HY</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_11">
+         <item>
+          <widget class="QCheckBox" name="checkBox_8">
+           <property name="text">
+            <string>sector</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_5">
+           <item>
+            <property name="text">
+             <string>energy</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>technology</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>industrials</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>retail</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>healthcare</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>military</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>finance</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>mining</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>services</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_12">
+         <item>
+          <widget class="QCheckBox" name="checkBox_9">
+           <property name="text">
+            <string>currency</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_6"/>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_13">
+         <item>
+          <widget class="QCheckBox" name="checkBox_10">
+           <property name="text">
+            <string>seniority</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_8">
+           <item>
+            <property name="text">
+             <string>senior secured</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>senior unsecured</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>junior</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>junior subordinated</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_14">
+         <item>
+          <widget class="QCheckBox" name="checkBox_11">
+           <property name="text">
+            <string>coupon type</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_9">
+           <item>
+            <property name="text">
+             <string>plain vanilla fixed rate</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>floating rate</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>perpetual</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>inflation-linked</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>zero-coupon</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_15">
+         <item>
+          <widget class="QCheckBox" name="checkBox_12">
+           <property name="text">
+            <string>security type</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_10">
+           <item>
+            <property name="text">
+             <string>Certificate of Deposit</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Bill ( &lt; 1Y )</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Note ( 1-5Y )</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Bond ( 5Y+ )</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_16">
+         <item>
+          <widget class="QCheckBox" name="checkBox_13">
+           <property name="text">
+            <string>options</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_11">
+           <item>
+            <property name="text">
+             <string>call</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>put</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>call + put</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_17">
+         <item>
+          <widget class="QCheckBox" name="checkBox">
+           <property name="text">
+            <string>structured</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="checkBox_14">
+           <property name="text">
+            <string>convertible</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_18">
+         <item>
+          <widget class="QCheckBox" name="checkBox_2">
+           <property name="text">
+            <string>collateralized</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_5">
+           <property name="text">
+            <string>apply filters</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QTabWidget" name="tabWidget_12">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>10</y>
+        <width>716</width>
+        <height>631</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_37">
+       <attribute name="title">
+        <string>sovereign</string>
+       </attribute>
+       <widget class="QTableView" name="tableView_29">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>716</width>
+          <height>601</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_9">
+       <attribute name="title">
+        <string>corporate</string>
+       </attribute>
+       <widget class="QTableView" name="tableView_31">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>716</width>
+          <height>601</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_38">
+       <attribute name="title">
+        <string>municipal</string>
+       </attribute>
+       <widget class="QTableView" name="tableView_30">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>716</width>
+          <height>601</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_39">
+       <attribute name="title">
+        <string>agencies</string>
+       </attribute>
+       <widget class="QTableView" name="tableView_32">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>716</width>
+          <height>601</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_12">
+      <property name="geometry">
+       <rect>
+        <x>785</x>
+        <y>5</y>
+        <width>161</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_5">
+    <attribute name="title">
+     <string>commodities</string>
+    </attribute>
+    <widget class="QFrame" name="frame_4">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>946</width>
+       <height>636</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QTabWidget" name="tabWidget_6">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>15</y>
+        <width>946</width>
+        <height>621</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_16">
+       <attribute name="title">
+        <string>overview</string>
+       </attribute>
+       <widget class="QTableView" name="tableView_10">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>5</y>
+          <width>946</width>
+          <height>586</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_17">
+       <attribute name="title">
+        <string>info</string>
+       </attribute>
+       <widget class="QTableView" name="tableView_11">
+        <property name="geometry">
+         <rect>
+          <x>5</x>
+          <y>5</y>
+          <width>931</width>
+          <height>581</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QComboBox" name="comboBox_3">
+      <property name="geometry">
+       <rect>
+        <x>615</x>
+        <y>10</y>
+        <width>111</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>all groups</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>metals</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>softs</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>meats</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>energy</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>grain</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_11">
+      <property name="geometry">
+       <rect>
+        <x>780</x>
+        <y>10</y>
+        <width>166</width>
+        <height>25</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
