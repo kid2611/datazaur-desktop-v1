@@ -1,0 +1,7 @@
+
+
+
+class Instrument:
+
+    pass
+

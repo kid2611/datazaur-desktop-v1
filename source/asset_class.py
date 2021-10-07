@@ -1,0 +1,6 @@
+
+
+class AssetClass(object):
+
+    pass
+
