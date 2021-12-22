@@ -1,7 +1,7 @@
 from sqlalchemy import MetaData, create_engine, select
 from sqlalchemy.orm import Session
 
-from database.models import User, APIKeys, Base, ArbitrageAlgorithm, ArbitrageParameters
+from .models import User, APIKeys, Base, ArbitrageAlgorithm
 import yaml
 
 
@@ -102,3 +102,5 @@ class ChemicalDB:
             session.commit()
         except Exception as e:
             print(f'error: {e}')
+
+
